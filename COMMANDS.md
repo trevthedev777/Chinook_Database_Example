@@ -79,6 +79,16 @@
 
 # 04 - Introducing an ORM
 
+## What is it? 
+- An object-relational mapper.
+
+## What does it do?
+- Bridges the gap between Python objects and Postgres Tables
+
+## How do you use it?
+- Query and manipulate a database using Python, instead of raw SQL commands
+
+The most popular `ORM` frameworks are `Django` and `SQL Alchemy`, they work really well with `Postgres`
 ---
 
 ### Install the "SQLAlchemy" Python package
