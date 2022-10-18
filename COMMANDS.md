@@ -76,3 +76,10 @@
 
 ### Create a new file: "sql-psycopg2.py"
 - `touch sql-psycopg2.py`
+
+# 04 - Introducing an ORM
+
+---
+
+### Install the "SQLAlchemy" Python package
+- `pip3 install SQLAlchemy`
