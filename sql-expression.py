@@ -19,8 +19,8 @@ artist_table = Table(
 
 # create variable for "Album" table
 # Primary key for this table is "AlbumId"
-# ForeignKey for this table is "ArtistId", its needs to be linked 
-# to the correct table as a param we route it to the artist_table 
+# ForeignKey for this table is "ArtistId", its needs to be linked
+# to the correct table as a param we route it to the artist_table
 # then the .ArtistId to link the ForeignKey
 album_table = Table(
     "Album", meta,
@@ -45,7 +45,7 @@ track_table = Table(
 
 #  Making the connection
 with db.connect() as connection:
-    
+  
     # Query 1 - select all records from the "Artist" table
     # select_query = artist_table.select()
 
@@ -63,10 +63,9 @@ with db.connect() as connection:
     # Query 5  - select only the albums with "ArtistId" #51 on the "Album" Table # noqa
     # select_query = artist_table.select().where(album_table.c.ArtistId == 51)
 
-    # Query 6 - select all tracks where the composer is "Queen" from the "Track" table
-    select_query = track_table.select().where(track_table.c.Composer == "Queen")
+    # Query 6 - select all tracks where the composer is "Queen" from the "Track" table # noqa
+    select_query = track_table.select().where(track_table.c.Composer == "Queen")  # noqa
     
-
     results = connection.execute(select_query)
     for result in results:
         print(result)

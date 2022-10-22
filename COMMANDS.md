@@ -131,6 +131,10 @@ The most popular `ORM` frameworks are `Django` and `SQL Alchemy`, they work real
 
 # 06 - Introducing Class-Based Models
 
+## What is a Class-based model
+
+- A collection of __methods__ that serve a common purpose, with each __method__ having its own purpose
+
 ---
 
 ### Create a new file called "sql-orm.py"
