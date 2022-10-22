@@ -190,3 +190,10 @@ for track in tracks:
         sep=" | "
     )
 ```
+
+# 07 - CodeAlong: Create and Read
+
+---
+
+### Create a new file called "sql-crud.py"
+- `touch sql-crud.py`
